@@ -12,7 +12,7 @@ set(SFML_STATIC_LIBRARIES FALSE)
 find_package(SFML 2.5 CONFIG REQUIRED COMPONENTS graphics window system)
 
 # Collect source files
-file(GLOB SOURCE_FILES "Source/*.cpp")
+file(GLOB SOURCE_FILES "Source/*.cpp" "Source/*/*.hpp")
 
 # Create executable
 add_executable(mario ${SOURCE_FILES})
