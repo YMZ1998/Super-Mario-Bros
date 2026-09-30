@@ -1,5 +1,11 @@
 #pragma once
 
+#include "Animation.hpp"
+#include "Enemy.hpp"
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <memory>
+
 class Koopa : public Enemy
 {
 	//We'll use this to make sure that we check the collision with Mario only once when he collides with us.

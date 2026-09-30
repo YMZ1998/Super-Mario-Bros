@@ -1,5 +1,11 @@
 #pragma once
 
+#include <SFML/Graphics/Rect.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+
+class MapManager;
 class Mushroom
 {
 	bool dead;

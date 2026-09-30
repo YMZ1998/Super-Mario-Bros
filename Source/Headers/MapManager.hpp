@@ -1,5 +1,15 @@
 #pragma once
 
+#include "Animation.hpp"
+#include "Global.hpp"
+#include <SFML/Graphics/Image.hpp>
+#include <SFML/Graphics/Rect.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <SFML/System/Vector2.hpp>
+#include <vector>
+
 class MapManager
 {
 	std::vector<Object> brick_particles;

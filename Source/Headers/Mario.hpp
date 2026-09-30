@@ -1,5 +1,14 @@
 #pragma once
 
+#include "Animation.hpp"
+#include "Mushroom.hpp"
+#include <SFML/Graphics/Rect.hpp>
+#include <SFML/Graphics/RenderWindow.hpp>
+#include <SFML/Graphics/Sprite.hpp>
+#include <SFML/Graphics/Texture.hpp>
+#include <vector>
+
+class MapManager;
 class Mario
 {
 	bool crouching;
